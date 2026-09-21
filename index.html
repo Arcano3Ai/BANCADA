@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>BANCADA | Metrología y Calibración Industrial Acreditada · Monterrey, N.L.</title>
+  <meta name="description" content="Laboratorio y servicio de calibración técnica en Monterrey para verniers, micrómetros, manómetros y torquímetros. Acreditación ISO/IEC 17025:2017 y trazabilidad CENAM/NIST.">
+  <meta name="keywords" content="calibracion monterrey, metrologia apodaca, calibracion vernier monterrey, calibracion micrometros nuevo leon, calibracion torquimetros monterrey, ISO 17025 monterrey, bancada oficial, ese-ag">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://bancada.com.mx/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BANCADA | Metrología &amp; Calibración Industrial Acreditada · Monterrey">
+  <meta property="og:description" content="Servicio In Situ y laboratorio para la industria metalmecánica, automotriz y aeroespacial en Nuevo León. Dictámenes oficiales con incertidumbre expandida.">
+  <meta property="og:url" content="https://bancada.com.mx/">
+
+  <!-- Tipografía Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Hojas de Estilo -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Microdatos Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "BANCADA Metrología Industrial",
+    "description": "Laboratorio y servicios de calibración técnica de instrumentos industriales con acreditación ISO/IEC 17025:2017 y cobertura prioritaria en Monterrey y parques industriales de Nuevo León.",
+    "url": "https://bancada.com.mx/",
+    "serviceType": "Calibración de Instrumentos Industriales",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Monterrey",
+      "addressRegion": "Nuevo León",
+      "addressCountry": "MX"
+    },
+    "areaServed": [
+      "Monterrey",
+      "Apodaca",
+      "Santa Catarina",
+      "San Nicolás de los Garza",
+      "Escobedo",
+      "Guadalupe",
+      "García",
+      "Ciénega de Flores",
+      "Ramos Arizpe"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Cabecera Oficial -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand-logo" aria-label="BANCADA Inicio">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="5" width="20" height="14" rx="2"/>
+            <line x1="6" y1="5" x2="6" y2="10"/>
+            <line x1="10" y1="5" x2="10" y2="8"/>
+            <line x1="14" y1="5" x2="14" y2="10"/>
+            <line x1="18" y1="5" x2="18" y2="8"/>
+            <circle cx="12" cy="14" r="2"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">BANCADA</span>
+          <span class="brand-tagline">Metrología Industrial · MTY</span>
+        </div>
+      </a>
+
+      <!-- Menú Desktop -->
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#magnitudes" class="nav-link">Magnitudes</a>
+        <a href="#catalogo" class="nav-link has-badge">
+          <span>Catálogo</span>
+          <span class="mini-badge">+50 Pzs</span>
+        </a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#trazabilidad" class="nav-link">ISO/IEC 17025</a>
+        <a href="#faq" class="nav-link">Preguntas</a>
+      </nav>
+
+      <!-- Acciones de Cabecera -->
+      <div class="header-actions">
+        <button class="btn-header-lot open-lot-drawer-btn" aria-label="Ver Lote de Calibración">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span>Mi Lote</span>
+          <span class="lot-count-badge" style="display: none;">0</span>
+        </button>
+
+        <a href="#catalogo" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <span>Cotizar Calibración</span>
+        </a>
+
+        <button class="mobile-toggle" id="mobile-menu-btn" aria-label="Abrir Menú Móvil">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navegación Móvil Desplegable -->
+  <div class="mobile-nav-panel" id="mobile-nav" style="display:none;">
+    <a href="#magnitudes" class="mobile-nav-link">Magnitudes</a>
+    <a href="#catalogo" class="mobile-nav-link">Catálogo de Instrumentos</a>
+    <a href="#servicios" class="mobile-nav-link">Servicios Industriales</a>
+    <a href="#trazabilidad" class="mobile-nav-link">Trazabilidad ISO 17025</a>
+    <a href="#faq" class="mobile-nav-link">Preguntas Frecuentes</a>
+  </div>
+
+  <main id="contenido-principal">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-pill-badge">
+          <span class="pill-dot"></span>
+          <span>Acreditación ISO/IEC 17025:2017 · Cobertura In Situ Parques Industriales Monterrey y N.L.</span>
+        </div>
+
+        <h1 class="hero-title">
+          Precisión Metrológica &amp; Calibración de Grado Industrial
+        </h1>
+
+        <p class="hero-subtitle">
+          Estructura tu programa de calibración pieza por pieza. Desde calibradores vernier y micrómetros de exteriores hasta torquímetros, manómetros y celdas de carga para el clúster automotriz, aeroespacial y metalmecánico de Monterrey y la zona norte.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#catalogo" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 6h16M4 12h16M4 18h7"/></svg>
+            <span>Explorar Catálogo por Pieza</span>
+          </a>
+
+          <button class="btn btn-cyan open-lot-drawer-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 15h6"/></svg>
+            <span>Armar Lote de Calibración Express</span>
+          </button>
+
+          <a href="https://wa.me/528180108365?text=Hola%20BANCADA,%20deseo%20cotizar%20calibraci%C3%B3n%20para%20planta%20en%20Monterrey" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+            <span>WhatsApp Ingeniería MTY</span>
+          </a>
+        </div>
+
+        <!-- Indicadores Métricos -->
+        <div class="hero-stats-grid">
+          <div class="stat-card">
+            <div class="stat-number">50<span class="stat-unit">+</span></div>
+            <div class="stat-label">Instrumentos desglosados en piezas y alcances exactos</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">8<span class="stat-unit"> Áreas</span></div>
+            <div class="stat-label">Dimensional, Mecánica, Eléctrica, Térmica, Masa y más</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">24<span class="stat-unit">-48h</span></div>
+            <div class="stat-label">Servicio estándar y calibración In Situ en tu planta</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">100<span class="stat-unit">%</span></div>
+            <div class="stat-label">Trazabilidad oficial CENAM, NIST y acreditación PJLA</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Acceso Rápido por Magnitud -->
+    <section class="quick-magnitudes-section" id="magnitudes">
+      <div class="container">
+        <span class="section-eyebrow">Áreas Metrológicas</span>
+        <h2 class="section-title">Magnitudes e Instrumentos Calibrables</h2>
+        <p class="section-desc">
+          Selecciona una magnitud para revisar instrumentos individuales, tolerancias y normas técnicas bajo estándar de nuestro laboratorio asociado ESE-AG.
+        </p>
+
+        <div class="magnitudes-quick-grid" id="magnitudes-nav">
+          <!-- Poblado dinámicamente por app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Catálogo Interactivo ("Piezas Pequeñas") -->
+    <section class="catalog-section" id="catalogo">
+      <div class="container">
+        <div class="catalog-header-bar">
+          <div>
+            <span class="section-eyebrow">Catálogo Maestro Desglosado</span>
+            <h2 class="section-title">Selección Individual de Instrumentos</h2>
+            <p class="section-desc">
+              Busca cualquier equipo (ej. <em>vernier</em>, <em>micrómetro</em>, <em>torquímetro</em>, <em>manómetro</em>) o filtra por magnitud para consultar especificaciones y armar tu lote de calibración.
+            </p>
+          </div>
+
+          <!-- Barra de Búsqueda Interactiva -->
+          <div class="search-container">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            <input type="text" id="catalog-search" class="search-input" placeholder="Buscar por instrumento, rango, norma (ej. 'vernier', 'pie de rey', 'psi', 'torque')..." aria-label="Buscar instrumento">
+            <button id="search-clear" class="search-clear-btn" aria-label="Limpiar búsqueda">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+          </div>
+
+          <!-- Tabs de Selección de Magnitud -->
+          <div class="tabs-scroll-wrapper">
+            <div class="magnitudes-tabs" id="magnitudes-tabs" role="tablist">
+              <!-- Botones generados dinámicamente por app.js -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Estado de Resultados -->
+        <div class="results-status-bar">
+          <h3 class="current-category-title" id="current-category-title">Catálogo Integral de Calibración Industrial</h3>
+          <span class="results-count" id="results-count">Cargando instrumentos...</span>
+        </div>
+
+        <!-- Grid de Instrumentos ("Piezas Pequeñas") -->
+        <div class="instruments-grid" id="instruments-grid">
+          <!-- Tarjetas renderizadas reactivamente por app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Servicios Industriales en Monterrey -->
+    <section class="services-section" id="servicios">
+      <div class="container">
+        <span class="section-eyebrow">Cobertura Industrial Monterrey</span>
+        <h2 class="section-title">Servicios Técnicos Especializados</h2>
+        <p class="section-desc">
+          Capacidad de respuesta ágil en los corredores industriales de Apodaca, Santa Catarina, Escobedo, San Nicolás, Guadalupe, Ciénega de Flores y Ramos Arizpe.
+        </p>
+
+        <div class="services-grid">
+          <!-- Servicio 1 -->
+          <article class="service-card">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="service-title">Calibración In Situ (En Planta)</h3>
+            <p class="service-text">
+              Unidad móvil de metrología con patrones viajeros certificados para calibrar en tus propias líneas de producción sin riesgo de traslado ni paros operativos.
+            </p>
+            <ul class="service-features-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Sin desarme ni desinstalación de líneas</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Calibración bajo condiciones reales de taller</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Mármoles, comparadores ópticos, hornos y prensas</li>
+            </ul>
+          </article>
+
+          <!-- Servicio 2 -->
+          <article class="service-card">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a4 4 0 0 0-5.66 5.66l-6.1 6.1a2 2 0 1 0 2.83 2.83l6.1-6.1a4 4 0 0 0 5.66-5.66l-2.12 2.12-3.54-3.54 2.12-2.12z"/></svg>
+            </div>
+            <h3 class="service-title">Ajuste, Limpieza &amp; Lapeado</h3>
+            <p class="service-text">
+              Si un vernier, micrómetro o torquímetro presenta descalibración o holgura mecánica, aplicamos lapeado plano óptico y ajuste fino previo a la emisión del certificado.
+            </p>
+            <ul class="service-features-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Corrección de paralelismo en mordazas de vernier</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Lapeado de caras de medición en micrómetros</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Calibración y reajuste de mecanismo de zafe en torquímetros</li>
+            </ul>
+          </article>
+
+          <!-- Servicio 3 -->
+          <article class="service-card">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <h3 class="service-title">Dictámenes &amp; Certificados Oficiales</h3>
+            <p class="service-text">
+              Emisión de dictamen con cálculo de incertidumbre expandida (k=2, 95.45% de nivel de confianza) y etiqueta física plastificada con código de control de vigencia.
+            </p>
+            <ul class="service-features-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Válido ante auditorías IATF 16949, AS9100 e ISO 9001</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Trazabilidad formal a CENAM (México) y NIST (EE. UU.)</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Expediente técnico y respaldo digital en PDF</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Trazabilidad e ISO 17025 -->
+    <section class="accreditation-section" id="trazabilidad">
+      <div class="container">
+        <div class="accreditation-box">
+          <div>
+            <div class="badge-iso-lg">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <span>Acreditación ISO/IEC 17025:2017 · PJLA</span>
+            </div>
+            <h2 class="accreditation-title">Rigor Metrológico y Trazabilidad Internacional</h2>
+            <p class="accreditation-desc">
+              A través de la alianza con nuestro proveedor de servicios técnicos acreditado <strong>ESE-AG</strong>, cada servicio metrológico prestado por <strong>BANCADA</strong> se rige bajo los más estrictos estándares de calidad internacional.
+            </p>
+            <p class="accreditation-desc">
+              Respaldamos la exactitud dimensional, de presión, fuerza, torque y temperatura de la industria regiomontana con dictámenes que superan cualquier auditoría de calidad.
+            </p>
+            <div style="margin-top: 1.8rem;">
+              <a href="#catalogo" class="btn btn-primary">Explorar Catálogo de Equipos</a>
+            </div>
+          </div>
+
+          <div class="trace-chain">
+            <div class="trace-node">
+              <span class="trace-level">NIVEL 1</span>
+              <div class="trace-text">
+                <h4>BIPM / Sistema Internacional (SI)</h4>
+                <p>Definiciones primarias de metro, kilogramo, segundo, kelvin y pascal</p>
+              </div>
+            </div>
+            <div class="trace-node">
+              <span class="trace-level">NIVEL 2</span>
+              <div class="trace-text">
+                <h4>CENAM (México) / NIST (EE. UU.)</h4>
+                <p>Patrones nacionales de referencia metrológica</p>
+              </div>
+            </div>
+            <div class="trace-node" style="border-color: rgba(255, 107, 53, 0.4);">
+              <span class="trace-level" style="color:var(--color-orange); background:rgba(255,107,53,0.2);">NIVEL 3</span>
+              <div class="trace-text">
+                <h4>ESE-AG / BANCADA Metrología</h4>
+                <p>Laboratorio acreditado ISO/IEC 17025 · PJLA</p>
+              </div>
+            </div>
+            <div class="trace-node" style="border-color: rgba(0, 229, 255, 0.4);">
+              <span class="trace-level" style="color:var(--color-cyan); background:rgba(0,229,255,0.2);">NIVEL 4</span>
+              <div class="trace-text">
+                <h4>Tus Instrumentos en Planta (Monterrey)</h4>
+                <p>Verniers, micrómetros, manómetros, torquímetros y balanzas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preguntas Frecuentes -->
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 3rem;">
+          <span class="section-eyebrow">Resolución de Dudas</span>
+          <h2 class="section-title">Preguntas Frecuentes sobre Calibración</h2>
+          <p class="section-desc" style="margin: 0 auto;">Información clara sobre procedimientos, acreditaciones y tiempos de entrega para plantas de Monterrey.</p>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item is-open">
+            <button class="faq-question">
+              <span>¿Qué información contiene el Certificado de Calibración oficial?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              El certificado incluye número de folio único, descripción e identificación del instrumento (marca, modelo, serie, código interno), condiciones ambientales controladas durante el ensayo, identificación de los patrones de referencia utilizados con su fecha de vigencia, tabla de valores de lectura, corrección de indicación, incertidumbre expandida (k=2) y la firma autorizada del signatario acreditado.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Cuál es el tiempo de entrega habitual para verniers y micrómetros en Monterrey?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              El tiempo estándar de servicio en laboratorio es de <strong>24 a 48 horas hábiles</strong>. Si tu planta está en Apodaca, Santa Catarina, San Nicolás o Guadalupe, contamos con logística de recolección programada o servicio In Situ para lotes de instrumentos.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Qué ventajas ofrece la calibración In Situ para empresas en Nuevo León?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              La calibración <strong>In Situ</strong> elimina el riesgo de daño físico durante el flete, reduce el tiempo de indisponibilidad del equipo y permite verificar los instrumentos bajo las condiciones térmicas y ambientales reales de tu planta. Es la opción predilecta para mármoles de granito, prensas, hornos y líneas de ensamble.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Cómo se define el período o intervalo de calibración de un instrumento?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Bajo la directriz ISO/IEC 17025, el período de calibración es responsabilidad del usuario según la criticidad de la medición y la frecuencia de uso (generalmente 6 o 12 meses). El certificado de calibración emitido no incluye fecha de vencimiento a menos que la empresa lo especifique formalmente en su solicitud.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Cómo funciona el cotizador de lote express por WhatsApp?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Solo selecciona en el catálogo los instrumentos que deseas calibrar con el botón <strong>"+ Agregar al Lote"</strong>, ajusta las cantidades que tiene tu empresa y presiona <em>"Solicitar Cotización por WhatsApp"</em>. Nuestro equipo técnico en Monterrey recibirá el desglose exacto con rangos y normas para enviarte la propuesta económica formal de inmediato.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de Página Oficial -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 1.2rem;">
+            <div class="brand-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" width="22" height="22">
+                <rect x="2" y="5" width="20" height="14" rx="2"/>
+                <line x1="6" y1="5" x2="6" y2="10"/>
+                <line x1="14" y1="5" x2="14" y2="10"/>
+                <circle cx="12" cy="14" r="2"/>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-name">BANCADA</span>
+              <span class="brand-tagline">Metrología Industrial · Monterrey</span>
+            </div>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1rem;">
+            Servicios metrológicos de precisión y calibración técnica para la industria de manufactura, maquinados CNC y calidad en Monterrey, N.L. Proveedor de servicios acreditado ESE-AG.
+          </p>
+          <span style="font-size: 0.78rem; color: var(--color-cyan); font-weight: 600;">
+            Acreditación PJLA · Trazabilidad CENAM / NIST · ISO/IEC 17025:2017
+          </span>
+        </div>
+
+        <div class="footer-col">
+          <h4>Magnitudes</h4>
+          <ul class="footer-links">
+            <li><a href="#catalogo">Dimensional (Verniers, Micrómetros)</a></li>
+            <li><a href="#catalogo">Mecánica (Manómetros, Torquímetros)</a></li>
+            <li><a href="#catalogo">Eléctrica (Voltaje, Corriente, Hipot)</a></li>
+            <li><a href="#catalogo">Termodinámica (Hornos, Muflas, Pirómetros)</a></li>
+            <li><a href="#catalogo">Masa &amp; Pesaje (Básculas, Celdas)</a></li>
+            <li><a href="#catalogo">Acústica, Química y Frecuencia</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <ul class="footer-links">
+            <li><a href="#contenido-principal">Inicio</a></li>
+            <li><a href="#magnitudes">Áreas Metrológicas</a></li>
+            <li><a href="#catalogo">Catálogo Completo</a></li>
+            <li><a href="#servicios">Servicios In Situ Monterrey</a></li>
+            <li><a href="#trazabilidad">Acreditación ISO 17025</a></li>
+            <li><a href="#faq">Preguntas Frecuentes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contacto &amp; Cotizaciones Monterrey</h4>
+          <div class="footer-contact-info">
+            <div class="contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Atención prioritaria en parques industriales de Apodaca, Santa Catarina, Escobedo, Guadalupe y San Nicolás, N.L.</span>
+            </div>
+            <div class="contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>WhatsApp Directo MTY: +52 81 8010 8365</span>
+            </div>
+            <div class="contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Horario Operativo: Lunes a Viernes 08:00 - 18:00 hrs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 BANCADA Metrología Industrial. Monterrey, Nuevo León. Laboratorio asociado ESE-AG.</p>
+        <p>Acreditado ISO/IEC 17025:2017 · Trazabilidad Internacional</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Drawer Lateral: Lote de Calibración Express -->
+  <div class="lot-overlay" id="lot-overlay"></div>
+  <aside class="lot-drawer" id="lot-drawer" aria-label="Mi Lote de Calibración">
+    <div class="drawer-header">
+      <div class="drawer-title-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" width="22" height="22" color="var(--color-orange)">
+          <rect x="3" y="3" width="18" height="18" rx="2"/>
+          <path d="M9 9h6M9 15h6"/>
+        </svg>
+        <h3>Mi Lote de Calibración</h3>
+      </div>
+      <button class="drawer-close-btn" id="lot-close-btn" aria-label="Cerrar Lote">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <div class="drawer-body">
+      <!-- Lista de instrumentos agregados -->
+      <div class="lot-items-list" id="lot-items-list">
+        <!-- Renderizado dinámicamente por app.js -->
+      </div>
+
+      <!-- Configuración del servicio -->
+      <div class="drawer-options-box">
+        <h4 class="drawer-options-title">Modalidad de Calibración</h4>
+        <div class="radio-group">
+          <label class="radio-label">
+            <input type="radio" name="service-type" value="En Planta (In Situ - Monterrey y Zona Metropolitana)" checked>
+            <span>Servicio In Situ (En planta en Monterrey / N.L.)</span>
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="service-type" value="En Laboratorio de Calibración">
+            <span>En Laboratorio (Recolección / Envío)</span>
+          </label>
+        </div>
+
+        <textarea id="lot-notes" class="notes-textarea" placeholder="Planta, parque industrial en Monterrey o requerimientos especiales (Opcional)..."></textarea>
+      </div>
+    </div>
+
+    <div class="drawer-footer">
+      <div class="drawer-totals-row">
+        <span>Tipos de instrumentos:</span>
+        <strong id="lot-total-types">0</strong>
+      </div>
+      <div class="drawer-totals-row" style="font-size: 1.05rem;">
+        <span>Total de piezas a calibrar:</span>
+        <strong id="lot-total-pieces" style="color: var(--color-orange);">0 pzs</strong>
+      </div>
+
+      <button class="btn-whatsapp-quote" id="lot-whatsapp-btn" disabled>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+        <span>Solicitar Cotización por WhatsApp</span>
+      </button>
+
+      <button class="btn-clear-lot" id="lot-clear-btn">Vaciar Lote de Calibración</button>
+    </div>
+  </aside>
+
+  <!-- Botón Flotante del Lote -->
+  <button class="lot-floating-btn" id="lot-floating-btn" aria-label="Abrir Lote de Calibración">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+    <span>Mi Lote</span>
+    <span class="lot-count-badge">0</span>
+  </button>
+
+  <!-- Modal de Ficha Técnica Individual -->
+  <div class="modal-wrapper" id="detail-modal" role="dialog" aria-modal="true" aria-label="Ficha Técnica">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="detail-modal-close" aria-label="Cerrar Ficha Técnica">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div id="detail-modal-content">
+        <!-- Rellenado dinámicamente por app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts Modulares -->
+  <script src="assets/js/catalog-data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

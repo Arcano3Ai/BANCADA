@@ -1,0 +1,3 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://bancada.com.mx/sitemap.xml
