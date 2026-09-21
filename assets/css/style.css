@@ -5,16 +5,16 @@
 
 :root {
   /* Paleta Base - Industrial Dark Tech */
-  --bg-black: #05070a;
-  --bg-primary: #0a0e17;
-  --bg-surface: #101623;
-  --bg-card: #151d2e;
-  --bg-card-hover: #1c273d;
-  --bg-accent-subtle: rgba(255, 107, 53, 0.08);
+  --bg-black: #00060f;
+  --bg-primary: #000b1b;
+  --bg-surface: #04142d;
+  --bg-card: #081b3a;
+  --bg-card-hover: #0e2752;
+  --bg-accent-subtle: rgba(0, 136, 255, 0.12);
 
   /* Acentos y SeÃ±alÃ©tica MetrolÃ³gica */
-  --color-orange: #ff6b35;
-  --color-orange-glow: rgba(255, 107, 53, 0.35);
+  --color-orange: #0088ff;
+  --color-orange-glow: rgba(0, 136, 255, 0.5);
   --color-amber: #f59e0b;
   --color-cyan: #00e5ff;
   --color-cyan-glow: rgba(0, 229, 255, 0.3);
@@ -75,7 +75,7 @@ body {
   overflow-x: hidden;
   position: relative;
   background-image: 
-    radial-gradient(circle at 50% 0%, rgba(255, 107, 53, 0.07) 0%, transparent 60%),
+    radial-gradient(circle at 50% 0%, rgba(0, 136, 255, 0.15) 0%, transparent 60%),
     linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
   background-size: 100% 100%, 48px 48px, 48px 48px;
@@ -122,14 +122,14 @@ button, input, select, textarea {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #ff7a00, #ff5722);
+  background: linear-gradient(135deg, #0099ff, #005cd6);
   color: #ffffff;
-  box-shadow: 0 4px 18px rgba(255, 107, 53, 0.35);
+  box-shadow: 0 4px 18px rgba(0, 136, 255, 0.35);
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #ff8c1a, #ff6535);
-  box-shadow: 0 6px 24px rgba(255, 107, 53, 0.55);
+  background: linear-gradient(135deg, #1aa3ff, #0066ee);
+  box-shadow: 0 6px 24px rgba(0, 136, 255, 0.55);
   transform: translateY(-2px);
 }
 
@@ -193,7 +193,7 @@ button, input, select, textarea {
 .brand-icon {
   width: 44px;
   height: 44px;
-  background: linear-gradient(135deg, #ff7a00, #ff5722);
+  background: linear-gradient(135deg, #0099ff, #005cd6);
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
@@ -259,7 +259,7 @@ button, input, select, textarea {
   font-size: 0.68rem;
   padding: 0.15rem 0.45rem;
   background: var(--bg-accent-subtle);
-  border: 1px solid rgba(255, 107, 53, 0.3);
+  border: 1px solid rgba(0, 136, 255, 0.3);
   color: var(--color-orange);
   border-radius: var(--radius-full);
   font-weight: 700;
@@ -470,7 +470,7 @@ button, input, select, textarea {
 
 .mag-quick-card:hover {
   background: var(--bg-card-hover);
-  border-color: rgba(255, 107, 53, 0.4);
+  border-color: rgba(0, 136, 255, 0.4);
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
@@ -479,7 +479,7 @@ button, input, select, textarea {
   width: 48px;
   height: 48px;
   border-radius: var(--radius-sm);
-  background: rgba(255, 107, 53, 0.1);
+  background: rgba(0, 136, 255, 0.1);
   color: var(--color-orange);
   display: flex;
   align-items: center;
@@ -691,7 +691,7 @@ button, input, select, textarea {
 
 .instrument-card:hover {
   background: var(--bg-card);
-  border-color: rgba(255, 107, 53, 0.35);
+  border-color: rgba(0, 136, 255, 0.35);
   box-shadow: var(--shadow-md);
   transform: translateY(-3px);
 }
@@ -723,9 +723,9 @@ button, input, select, textarea {
   letter-spacing: 0.05em;
   padding: 0.25rem 0.65rem;
   border-radius: var(--radius-full);
-  background: rgba(255, 107, 53, 0.1);
+  background: rgba(0, 136, 255, 0.1);
   color: var(--color-orange);
-  border: 1px solid rgba(255, 107, 53, 0.2);
+  border: 1px solid rgba(0, 136, 255, 0.2);
 }
 
 .card-mag-badge svg {
@@ -766,7 +766,7 @@ button, input, select, textarea {
 }
 
 .instrument-name mark {
-  background: rgba(255, 107, 53, 0.35);
+  background: rgba(0, 136, 255, 0.35);
   color: #fff;
   padding: 0 2px;
   border-radius: 2px;
@@ -863,8 +863,8 @@ button, input, select, textarea {
 }
 
 .btn-add-lot {
-  background: rgba(255, 107, 53, 0.12);
-  border: 1px solid rgba(255, 107, 53, 0.35);
+  background: rgba(0, 136, 255, 0.12);
+  border: 1px solid rgba(0, 136, 255, 0.35);
   color: var(--color-orange);
   padding: 0.5rem 0.9rem;
   border-radius: var(--radius-sm);
@@ -1009,7 +1009,7 @@ button, input, select, textarea {
   width: 56px;
   height: 56px;
   border-radius: var(--radius-sm);
-  background: rgba(255, 107, 53, 0.1);
+  background: rgba(0, 136, 255, 0.1);
   color: var(--color-orange);
   display: flex;
   align-items: center;
@@ -1064,7 +1064,7 @@ button, input, select, textarea {
    ========================================================================== */
 .accreditation-section {
   padding: 5rem 0;
-  background: linear-gradient(135deg, rgba(255, 107, 53, 0.04) 0%, rgba(0, 229, 255, 0.04) 100%);
+  background: linear-gradient(135deg, rgba(0, 136, 255, 0.04) 0%, rgba(0, 229, 255, 0.04) 100%);
   border-top: 1px solid var(--border-subtle);
   border-bottom: 1px solid var(--border-subtle);
 }
@@ -1132,7 +1132,7 @@ button, input, select, textarea {
   font-size: 0.75rem;
   font-weight: 700;
   color: var(--color-orange);
-  background: rgba(255, 107, 53, 0.1);
+  background: rgba(0, 136, 255, 0.1);
   padding: 0.2rem 0.5rem;
   border-radius: var(--radius-xs);
 }
@@ -1172,7 +1172,7 @@ button, input, select, textarea {
 }
 
 .faq-item.is-open {
-  border-color: rgba(255, 107, 53, 0.35);
+  border-color: rgba(0, 136, 255, 0.35);
   background: var(--bg-card);
 }
 
@@ -1514,7 +1514,7 @@ button, input, select, textarea {
   bottom: 2rem;
   right: 2rem;
   z-index: 990;
-  background: linear-gradient(135deg, #ff7a00, #ff5722);
+  background: linear-gradient(135deg, #0099ff, #005cd6);
   color: #fff;
   border: none;
   border-radius: var(--radius-full);
@@ -1525,7 +1525,7 @@ button, input, select, textarea {
   align-items: center;
   gap: 0.65rem;
   cursor: pointer;
-  box-shadow: 0 8px 30px rgba(255, 107, 53, 0.5);
+  box-shadow: 0 8px 30px rgba(0, 136, 255, 0.5);
   transition: var(--transition);
   animation: bounceIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -1536,7 +1536,7 @@ button, input, select, textarea {
 
 .lot-floating-btn:hover {
   transform: translateY(-3px) scale(1.02);
-  box-shadow: 0 12px 35px rgba(255, 107, 53, 0.65);
+  box-shadow: 0 12px 35px rgba(0, 136, 255, 0.65);
 }
 
 @keyframes bounceIn {
